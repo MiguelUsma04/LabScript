@@ -2,7 +2,7 @@
 
 namespace LabScript
 {
-    public class AlertService : IAsyncDisposable
+    public class AlertService : IAsyncDisposable, IAlertService
     {
         readonly Lazy<Task<IJSObjectReference>> ijsObjectReference;
 
